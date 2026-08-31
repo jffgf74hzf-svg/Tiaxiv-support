@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiaxiv Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #EEF0EA;
+    --ink: #17211C;
+    --muted: #57655D;
+    --accent: #206A5D;
+    --rule: #D7DCD1;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5rem 1.5rem 4rem;
+  }
+
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: clamp(2.4rem, 6vw, 3.4rem);
+    letter-spacing: -0.01em;
+    margin: 0 0 0.4rem;
+  }
+
+  .subhead {
+    color: var(--muted);
+    font-size: 1.1rem;
+    margin: 0 0 1.6rem;
+  }
+
+  .rule {
+    width: 48px;
+    height: 3px;
+    background: var(--accent);
+    border: none;
+    margin: 0 0 2.4rem;
+  }
+
+  p {
+    max-width: 42ch;
+    margin: 0 0 1.6rem;
+  }
+
+  section {
+    margin-top: 3rem;
+    padding-top: 2.4rem;
+    border-top: 1px solid var(--rule);
+  }
+
+  section h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 0 0 1rem;
+  }
+
+  .contact-link {
+    display: inline-block;
+    color: var(--accent);
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--rule);
+  }
+
+  .contact-link:hover {
+    text-decoration-color: var(--accent);
+  }
+
+  .faq-item {
+    margin-bottom: 1.6rem;
+  }
+
+  .faq-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .faq-item .q {
+    font-weight: 500;
+    margin: 0 0 0.3rem;
+  }
+
+  .faq-item .a {
+    color: var(--muted);
+    margin: 0;
+    max-width: 48ch;
+  }
+
+  footer {
+    margin-top: 4rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tiaxiv</h1>
+  <p class="subhead">Support</p>
+  <hr class="rule">
+
+  <p>Need help with Tiaxiv, or have feedback on how it could be better? Get in touch and we'll get back to you as soon as we can.</p>
+
+  <section>
+    <h2>Contact us</h2>
+    <p>The fastest way to reach us is by email:</p>
+    <a class="contact-link" href="mailto:corbels.shouts.8b@icloud.com">corbels.shouts.8b@icloud.com</a>
+  </section>
+
+  <section>
+    <h2>Common questions</h2>
+    <div class="faq-item">
+      <p class="q">I found a bug. What should I include in my report?</p>
+      <p class="a">Let us know what you were doing when it happened, what you expected, and what happened instead. A screenshot helps too.</p>
+    </div>
+    <div class="faq-item">
+      <p class="q">Can I request a feature?</p>
+      <p class="a">Yes — email us your idea and how you'd use it. We read every message.</p>
+    </div>
+    <div class="faq-item">
+      <p class="q">How long does it take to hear back?</p>
+      <p class="a">We aim to reply within a couple of business days.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Tiaxiv. All rights reserved.
+  </footer>
+</main>
+</body>
+</html>
